@@ -76,10 +76,10 @@ export const config = {
   thankYou: "Your presence would be the greatest gift we could receive!",
 
   gallery: [
-    { src: "/photos/1.jpg", alt: "Sangeeetha and Naveen by the waterfall", position: "50% 58%" },
-    { src: "/photos/2.jpg", alt: "Sangeeetha and Naveen standing in the stream", position: "50% 42%" },
-    { src: "/photos/3.jpg", alt: "Sangeeetha and Naveen at the temple", position: "50% 46%" },
-    { src: "/photos/4.jpg", alt: "Sangeeetha and Naveen in the hills", position: "50% 38%" },
+    { src: "/photos/1.jpg", alt: "Naveen and Sangeeetha by the waterfall", position: "50% 58%" },
+    { src: "/photos/2.jpg", alt: "Naveen and Sangeeetha standing in the stream", position: "50% 42%" },
+    { src: "/photos/3.jpg", alt: "Naveen and Sangeeetha at the temple", position: "50% 46%" },
+    { src: "/photos/4.jpg", alt: "Naveen and Sangeeetha in the hills", position: "50% 38%" },
   ],
 };
 

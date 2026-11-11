@@ -48,9 +48,9 @@ export default function Invitation() {
               <Art name="ganesha" className="ganesha-art" />
               <div className="hero-copy">
                 <h1 className="hero-names">
-                  <span className="hero-name">{config.bride}</span>
-                  <span className="hero-amp">&</span>
                   <span className="hero-name">{config.groom}</span>
+                  <span className="hero-amp">&</span>
+                  <span className="hero-name">{config.bride}</span>
                 </h1>
               </div>
             </div>
@@ -74,9 +74,9 @@ export default function Invitation() {
           <section className="block">
             <h2 className="section-title">Ceremony Info</h2>
             <div className="families">
-              <Family family={config.brideFamily} />
-              <div className="family-rule" aria-hidden="true" />
               <Family family={config.groomFamily} />
+              <div className="family-rule" aria-hidden="true" />
+              <Family family={config.brideFamily} />
             </div>
           </section>
         </Reveal>
@@ -89,11 +89,11 @@ export default function Invitation() {
               ))}
             </p>
             <div className="couple">
-              <h3>{config.bride}</h3>
-              <span className="role">Bride</span>
-              <div className="couple-amp">&</div>
               <h3>{config.groom}</h3>
               <span className="role">Groom</span>
+              <div className="couple-amp">&</div>
+              <h3>{config.bride}</h3>
+              <span className="role">Bride</span>
             </div>
             <div className="ceremonies">
               {config.ceremonies.map((item) => (

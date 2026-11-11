@@ -47,9 +47,9 @@ export default function Cover({ opening, onOpen }) {
         </div>
 
         <h1 className="cover-names">
-          <span>{config.bride}</span>
-          <span className="cover-amp">&</span>
           <span>{config.groom}</span>
+          <span className="cover-amp">&</span>
+          <span>{config.bride}</span>
         </h1>
 
         <GoldFlourish className="cover-flourish" />
