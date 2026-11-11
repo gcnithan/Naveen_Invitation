@@ -39,7 +39,7 @@ export const config = {
     {
       title:
         "Muhurtam ceremony at Sri Jagadguru Renukacharya Kalyana Mantapa, Chikkamagaluru",
-      time: "10 AM",
+      time: "9 AM",
       date: "2026-11-20",
     },
     {
